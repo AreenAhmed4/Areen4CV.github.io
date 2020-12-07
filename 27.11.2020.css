@@ -1,0 +1,173 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url(white-concrete-wall.jpg);
+}
+
+.bd-highlight {
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .15);
+}
+
+.MenuContainerItems a
+{
+    background-color: #92817a !important;
+    font-size: 100%;
+}
+
+#PageContainer {
+
+    height: 100vh;
+}
+.icons a i
+{
+    color: #92817a !important;
+    font-size: 120% ;
+}
+
+
+#MenuContainer, #MenuContainerWrap {
+    min-width: 300px;
+    max-width: 300px;
+    background-color: #707070 !important;
+}
+
+
+#ContentContainer {
+   
+    scroll-behavior: smooth;
+}
+
+
+.MobileMenu {
+    background-color:transparent!important;
+}
+
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: none;
+}
+
+#ContentContainer section {
+    height: 100vh;
+}
+
+#sectionHome {
+    background-image: url(comp.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+#sectionHome > div
+
+/*> for direct child*/
+    {
+    height: 100vh;
+    background-color: rgba(22, 22, 22, 0.6);
+}
+
+#sectionHome .TypedHome {
+    border-bottom: 2px solid #8db596;
+    font-size: 130%;
+    padding-bottom: 4px;
+}
+
+
+.SectionTitle {
+    padding-top: 20px;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.SectionTitle::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: #8db596;
+    margin-bottom: 10px;
+}
+
+.AboutItem {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.ResumeItems {
+    border-left: 5px solid #8db596;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.ResumeItems * {
+    position: relative;
+    top: -18;
+}
+
+.ResumeItems::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    left: -30px;
+    border: 2px solid #8db596;
+}
+
+.SkillItem div span {
+    font-weight: 700;
+}
+
+.skillchart {
+
+    background-color: #bedbbb;
+    margin-top: 7px;
+    height: 20px;
+}
+
+.Percent {
+    /*    font-weight: 700;*/
+    background-color: #707070;
+    margin-top: 7px;
+    height: 20px;
+}
+
+.border-5 {
+    border-width: 6px;
+    border-style: solid;
+    border-color: ghostwhite;
+}
+
+
+section
+{
+  overflow: auto;
+    width: auto;
+}
+
+.btn-light
+{
+    color: #8db596 !important;
+}
+
+.PortfolioItem img
+{
+    width: 100% ;
+    height: auto;
+    padding: 3px;
+    margin-bottom: 7%;
+    border-radius: 2%;
+    border-color: #8db596;
+    border-style: solid;
+    border-width: 2px;
+}
+
+section>.bg-light
+{
+    opacity: 0.9 !important;
+}
