@@ -1,5 +1,5 @@
 var typed = new Typed('.TypedHome', {
-  strings: ["Web Developer","Graphic Designer", "Computer Engineer"],
+  strings: ["Process Automation Engineer","Graphic Designer"],
   typeSpeed: 50, loop:true });
 
 
